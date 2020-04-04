@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:diekabine/pages/splash_switcher.dart';
 import 'package:diekabine/pages/splash.dart';
+import 'package:diekabine/pages/home.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Splash(),
+      home: SplashSwitcher(duration: 2, splash: Splash(), navigateAfter: Home()),
     );
   }
 }
