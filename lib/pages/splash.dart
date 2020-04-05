@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:diekabine/widgets/logo.dart';
 
 class Splash extends StatefulWidget {
 
@@ -11,7 +12,17 @@ class _SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.lightBlueAccent,
+      color: Color(0xFF3C52A0),
+      child: Align(
+        alignment: Alignment.center,
+        child: FractionallySizedBox(
+            heightFactor: 1.00 / 6.00,
+            child: Align(
+                alignment: Alignment.center,
+                child: Logo()
+            )
+        ),
+      ),
     );
   }
 }
