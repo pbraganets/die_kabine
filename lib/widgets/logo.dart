@@ -28,7 +28,7 @@ class Logo extends StatelessWidget {
               child: AspectRatio(
                 aspectRatio: polygonWidth / polygonHeight,
                 child: SvgPicture.asset(
-                  "assets/svgs/logo_polygon.svg",
+                  "assets/svgs/logo/logo_polygon.svg",
                   color: polygonColor,
                 ),
               ),
@@ -45,7 +45,7 @@ class Logo extends StatelessWidget {
                 child: AspectRatio(
                   aspectRatio: titleWidth / titleHeight,
                   child: SvgPicture.asset(
-                    "assets/svgs/logo_title.svg",
+                    "assets/svgs/logo/logo_title.svg",
                     color: textColor,
                   ),
                 ),
@@ -63,7 +63,7 @@ class Logo extends StatelessWidget {
                 child: AspectRatio(
                   aspectRatio: kWidth / kHeight,
                   child: SvgPicture.asset(
-                    "assets/svgs/logo_k.svg",
+                    "assets/svgs/logo/logo_k.svg",
                     color: textColor,
                   ),
                 ),
