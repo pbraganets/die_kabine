@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:diekabine/widgets/menu.dart';
+import 'package:diekabine/pages/home_pages.dart';
 
 class Home extends StatefulWidget {
 
@@ -22,9 +23,7 @@ class _HomeState extends State<Home> {
                 child: Menu()
             ),
             Expanded(
-              child: Container(
-                decoration: BoxDecoration(color: Colors.green),
-              ),
+              child: HomePages(),
             ),
           ],
         ),

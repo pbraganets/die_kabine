@@ -13,7 +13,7 @@ class _SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Color(0xFF3C52A0),
+      decoration: BoxDecoration(color: Color(0xFF3C52A0)),
       child: Stack(
         children: <Widget>[
           Center(
