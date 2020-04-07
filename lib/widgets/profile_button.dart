@@ -1,11 +1,20 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:diekabine/presentation/custom_icons.dart';
 
 class ProfileButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: new BoxDecoration(color: Colors.deepOrange),
+      child: CupertinoButton(
+        child: Icon(
+            CustomIcons.account,
+            size: 35.00,
+            color: Color(0xFF40BFC1),
+        ),
+        onPressed: () {
+        },
+      ),
     );
   }
 }

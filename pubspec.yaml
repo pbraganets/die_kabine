@@ -43,6 +43,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+  # svgs:
     - assets/svgs/logo/logo_title.svg
     - assets/svgs/logo/logo_k.svg
     - assets/svgs/logo/logo_polygon.svg
@@ -52,6 +53,10 @@ flutter:
     - assets/svgs/splash/polygon_4.svg
     - assets/svgs/splash/polygon_5.svg
     - assets/svgs/splash/polygon_6.svg
+  # images:
+    - assets/images/logo.png
+    - assets/images/2.0x/logo.png
+    - assets/images/3.0x/logo.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -64,7 +69,10 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
+  fonts:
+    - family: CustomIcons
+      fonts:
+        - asset: assets/fonts/CustomIcons.ttf
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
